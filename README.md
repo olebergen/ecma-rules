@@ -1,2 +1,0 @@
-# style
-regeln müssen sein
