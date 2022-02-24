@@ -57,12 +57,12 @@ module.exports = {
       {
         props: true,
         ignorePropertyModificationsFor: [
-          'acc', // for reduce accumulators
-          'accumulator', // for reduce accumulators
-          'e', // for e.returnvalue
-          'req', // for Express requests
-          'res', // for Express responses
-          'staticContext', // for ReactRouter context
+          'acc', // reduce accumulators
+          'accumulator', // reduce accumulators
+          'e', // e.returnvalue
+          'req', // Express requests
+          'res', // Express responses
+          'staticContext', // ReactRouter context
         ],
       },
     ],
@@ -141,16 +141,17 @@ module.exports = {
     'prefer-spread': 'warn',
     'prefer-template': 'warn',
     'require-yield': 'error',
-    'sort-imports': [
-      'warn',
-      {
-        ignoreCase: false,
-        ignoreDeclarationSort: true,
-        ignoreMemberSort: false,
-        memberSyntaxSortOrder: ['none', 'all', 'single', 'multiple'],
-        allowSeparatedGroups: false,
-      },
-    ],
+    // bin mir echt nicht so sicher ob ich das will
+    // 'sort-imports': [
+    //   'warn',
+    //   {
+    //     ignoreCase: false,
+    //     ignoreDeclarationSort: true,
+    //     ignoreMemberSort: false,
+    //     memberSyntaxSortOrder: ['none', 'all', 'single', 'multiple'],
+    //     allowSeparatedGroups: false,
+    //   },
+    // ],
     'symbol-description': 'error',
     'use-isnan': 'error',
     'valid-typeof': ['error', { requireStringLiterals: true }],
