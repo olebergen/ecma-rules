@@ -76,7 +76,7 @@
       {
         "object": "Math",
         "property": "pow",
-        "message": "Use the exponentiation operator (**) instead."
+        "message": "Benutze (**)"
       }
     ],
     "no-restricted-syntax": ["error", "CallExpression[callee.name=\"debug\"]"],
