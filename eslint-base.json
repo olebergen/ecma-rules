@@ -16,6 +16,7 @@
     "no-case-declarations": "error",
     "no-console": "warn",
     "no-const-assign": "error",
+    "no-constant-binary-expression": "error",
     "no-constant-condition": "warn",
     "no-delete-var": "error",
     "no-dupe-args": "error",
