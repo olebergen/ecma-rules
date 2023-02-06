@@ -1,6 +1,5 @@
 {
   "rules": {
-    "arrow-body-style": ["warn", "as-needed", { "requireReturnForObjectLiteral": false }],
     "arrow-parens": ["warn", "always"],
     "curly": ["warn", "multi-line"],
     "default-case": "error",
